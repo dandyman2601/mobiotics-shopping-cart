@@ -1,0 +1,94 @@
+{
+	"products": [
+		{
+			"brand_name": "Amul",
+			"product_name": "Milk",
+			"quantity": "1L",
+			"price": "498",
+			"MRP": "408",
+			"image_url": "https://www.yourtrolley.in/userdata/public/gfx/cc20f390bd0db0834374e192eb77b5cb.jpg",
+			"offer_text": "18"
+		},
+		{
+			"brand_name": "Brittania",
+			"product_name": "Biscuits",
+			"quantity": "1L",
+			"price": "414",
+			"MRP": "450",
+			"image_url": "https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/bakeryandsnacks.com/news/manufacturers/happy-birthday-indian-biscuit-giant-britannia-promises-feast-of-new-products/8487496-1-eng-GB/Happy-birthday-Indian-biscuit-giant-Britannia-promises-feast-of-new-products_wrbm_large.jpg",
+			"offer_text": "8"
+		},
+		{
+			"brand_name": "Nestle",
+			"product_name": "Chocolate Bar",
+			"quantity": "1L",
+			"price": "439",
+			"MRP": "460",
+			"image_url": "https://5.imimg.com/data5/TH/UV/MY-44229728/nestle-milk-chocolate-500x500.jpg",
+			"offer_text": "4.7"
+		},
+		{
+			"brand_name": "Dairy",
+			"product_name": "Milk1",
+			"quantity": "1L",
+			"price": "498",
+			"MRP": "408",
+			"image_url": "https://5.imimg.com/data5/TH/UV/MY-44229728/nestle-milk-chocolate-500x500.jpg",
+			"offer_text": "18"
+		},
+		{
+			"brand_name": "Brittania",
+			"product_name": "Biscuits1",
+			"quantity": "1L",
+			"price": "414",
+			"MRP": "450",
+			"image_url": "https://5.imimg.com/data5/TH/UV/MY-44229728/nestle-milk-chocolate-500x500.jpg",
+			"offer_text": "8"
+		},
+		{
+			"brand_name": "Nestle",
+			"product_name": "Chocolate Bar1",
+			"quantity": "1L",
+			"price": "439",
+			"MRP": "460",
+			"image_url": "https://5.imimg.com/data5/TH/UV/MY-44229728/nestle-milk-chocolate-500x500.jpg",
+			"offer_text": "4.7"
+		},
+		{
+			"brand_name": "Amul",
+			"product_name": "Milk2",
+			"quantity": "1L",
+			"price": "498",
+			"MRP": "408",
+			"image_url": "https://5.imimg.com/data5/TH/UV/MY-44229728/nestle-milk-chocolate-500x500.jpg",
+			"offer_text": "18"
+		},
+		{
+			"brand_name": "Brittania",
+			"product_name": "Biscuits3",
+			"quantity": "1L",
+			"price": "414",
+			"MRP": "450",
+			"image_url": "https://5.imimg.com/data5/TH/UV/MY-44229728/nestle-milk-chocolate-500x500.jpg",
+			"offer_text": "8"
+		},
+		{
+			"brand_name": "Nestle",
+			"product_name": "Chocolate Bar4",
+			"quantity": "1L",
+			"price": "439",
+			"MRP": "460",
+			"image_url": "https://5.imimg.com/data5/TH/UV/MY-44229728/nestle-milk-chocolate-500x500.jpg",
+			"offer_text": "4.7"
+		},
+		{
+			"brand_name": "Nestle",
+			"product_name": "Chocolate Bar5",
+			"quantity": "1L",
+			"price": "439",
+			"MRP": "460",
+			"image_url": "https://5.imimg.com/data5/TH/UV/MY-44229728/nestle-milk-chocolate-500x500.jpg",
+			"offer_text": "4.7"
+		}
+	]
+}
