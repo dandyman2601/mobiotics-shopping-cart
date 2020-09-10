@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/mobiotics-shopping-cart/static/css/main.4631459e.chunk.css",
-    "main.js": "/mobiotics-shopping-cart/static/js/main.91f8b7c2.chunk.js",
-    "main.js.map": "/mobiotics-shopping-cart/static/js/main.91f8b7c2.chunk.js.map",
+    "main.css": "/mobiotics-shopping-cart/static/css/main.4a439ab0.chunk.css",
+    "main.js": "/mobiotics-shopping-cart/static/js/main.54c26662.chunk.js",
+    "main.js.map": "/mobiotics-shopping-cart/static/js/main.54c26662.chunk.js.map",
     "runtime-main.js": "/mobiotics-shopping-cart/static/js/runtime-main.4f0f696d.js",
     "runtime-main.js.map": "/mobiotics-shopping-cart/static/js/runtime-main.4f0f696d.js.map",
     "static/js/2.03716101.chunk.js": "/mobiotics-shopping-cart/static/js/2.03716101.chunk.js",
     "static/js/2.03716101.chunk.js.map": "/mobiotics-shopping-cart/static/js/2.03716101.chunk.js.map",
     "index.html": "/mobiotics-shopping-cart/index.html",
-    "precache-manifest.c51617e29d2979f7b8ad6e3b3cd01c6b.js": "/mobiotics-shopping-cart/precache-manifest.c51617e29d2979f7b8ad6e3b3cd01c6b.js",
+    "precache-manifest.8ea7199c0bb2ad7522f6106f7d8abbb2.js": "/mobiotics-shopping-cart/precache-manifest.8ea7199c0bb2ad7522f6106f7d8abbb2.js",
     "service-worker.js": "/mobiotics-shopping-cart/service-worker.js",
-    "static/css/main.4631459e.chunk.css.map": "/mobiotics-shopping-cart/static/css/main.4631459e.chunk.css.map",
+    "static/css/main.4a439ab0.chunk.css.map": "/mobiotics-shopping-cart/static/css/main.4a439ab0.chunk.css.map",
     "static/js/2.03716101.chunk.js.LICENSE.txt": "/mobiotics-shopping-cart/static/js/2.03716101.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4f0f696d.js",
     "static/js/2.03716101.chunk.js",
-    "static/css/main.4631459e.chunk.css",
-    "static/js/main.91f8b7c2.chunk.js"
+    "static/css/main.4a439ab0.chunk.css",
+    "static/js/main.54c26662.chunk.js"
   ]
 }
