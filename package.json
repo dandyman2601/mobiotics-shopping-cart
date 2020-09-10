@@ -2,7 +2,7 @@
 	"name": "shopping-react",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://dandyman2601.github.io/mobiotics-shopping-cart/",
+	"homepage": "https://dandyman2601.github.io/mobiotics-shopping-cart",
 	"dependencies": {
 		"@testing-library/jest-dom": "^4.2.4",
 		"@testing-library/react": "^9.5.0",
