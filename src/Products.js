@@ -26,6 +26,10 @@ function ProductList(props) {
         setPage(nextPage);
     };
 
+    const getTotalSum = () => {
+        return cart.reduce((sum, { price }) => sum + price, 0);
+    }
+
     const renderProducts = () => (
         <>
             <h1>Product Page</h1>
@@ -86,6 +90,7 @@ function ProductList(props) {
 
             )}
             <footer className="footerBox">
+                <p>Total cost (Rs): {getTotalSum()}</p>
                 <button onClick={() => navigateTo(PAGE_PRODUCTS)}> Go Back </button>
             </footer>
         </>
