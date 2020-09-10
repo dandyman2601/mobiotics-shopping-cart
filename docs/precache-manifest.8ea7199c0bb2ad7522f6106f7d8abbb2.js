@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a61c0473977d013a8c98375d0094086b",
+    "revision": "b96405f58f22090db8e6c7ca4bc803f8",
     "url": "/mobiotics-shopping-cart/index.html"
   },
   {
-    "revision": "cfdf9ddc30c364765894",
-    "url": "/mobiotics-shopping-cart/static/css/main.4631459e.chunk.css"
+    "revision": "28680103ca7f4ee766a1",
+    "url": "/mobiotics-shopping-cart/static/css/main.4a439ab0.chunk.css"
   },
   {
     "revision": "8fd1d1f67be8aec0ca43",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mobiotics-shopping-cart/static/js/2.03716101.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cfdf9ddc30c364765894",
-    "url": "/mobiotics-shopping-cart/static/js/main.91f8b7c2.chunk.js"
+    "revision": "28680103ca7f4ee766a1",
+    "url": "/mobiotics-shopping-cart/static/js/main.54c26662.chunk.js"
   },
   {
     "revision": "5a5be2c8b0975748a2ff",
