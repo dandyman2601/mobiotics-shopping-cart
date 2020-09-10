@@ -10,14 +10,15 @@ function ProductList(props) {
     let [cart, setCart] = useState([]);
     let [page, setPage] = useState(PAGE_PRODUCTS);
 
-    const addToCart = (products) => {
-        console.log("addtocart");
-        setCart([...cart, products]);
+
+    const addToCart = (index) => {
+        console.log("addtocart", products[index]);
+        setCart([...cart, products[index]]);
     };
 
-    const removeFromCart = (productToRemove) => {
+    const removeFromCart = (product_name) => {
         setCart(
-            cart.filter((product) => product !== productToRemove)
+            cart.filter((product) => product.product_name !== product_name)
         );
     };
 
@@ -28,38 +29,7 @@ function ProductList(props) {
     const renderProducts = () => (
         <>
             <h1>Product Page</h1>
-            {products.map(({ brand_name, product_name, quantity, image_url, price, MRP, offer_text, index }) =>
-                <div className="products" key={product_name}>
-                    <div>
-                        <img src={image_url} alt="" />
-                    </div>
-                    <div className="contentBox">
-                        <h3>{brand_name}</h3>
-                        <h4>{product_name}</h4>
-                        <p>{quantity}</p>
-                        <p>MRP: {MRP}</p>
-                        <p>Rs: {price}</p>
-                    </div>
-                    <div className="discountText">
-                        <p>{offer_text}% OFF</p>
-                    </div>
-                    <div className="buttonBox">
-                        <button onClick={() => addToCart(products)}>Add to Cart</button>
-                        <button >Remove from Cart</button>
-                    </div>
-                </div>
-            )
-            }
-            <footer className="footerBox">
-                <button onClick={() => navigateTo(PAGE_CART)}> Go to Cart ( {cart.length} )</button>
-            </footer>
-        </>
-    );
-
-    const renderCart = (props) => (
-        <>
-            <h1>Cart Page</h1>
-            {cart.map(({ brand_name, product_name, quantity, image_url, price, MRP, offer_text, index }) =>
+            {products.map(({ brand_name, product_name, quantity, image_url, price, MRP, offer_text }, index) =>
                 <div className="products" key={index}>
                     <div>
                         <img src={image_url} alt="" />
@@ -75,7 +45,42 @@ function ProductList(props) {
                         <p>{offer_text}% OFF</p>
                     </div>
                     <div className="buttonBox">
-                        <button onClick={() => removeFromCart(products)} >Remove from Cart</button>
+                        <button onClick={() => addToCart(index)}>Add to Cart</button>
+                        <button>-</button>
+                        <span>{cart.length}</span>
+                        <button onClick={() => addToCart(index)}>+</button>
+                    </div>
+                </div>
+            )
+            }
+            <footer className="footerBox">
+                <button onClick={() => navigateTo(PAGE_CART)}> Go to Cart ( {cart.length} )</button>
+            </footer>
+        </>
+    );
+
+    const renderCart = () => (
+        <>
+            <h1>My Cart ({cart.length})</h1>
+            {console.log(cart)}
+            {cart.map(({ brand_name, product_name, quantity, image_url, price, MRP, offer_text }, index) =>
+                <div className="products" key={index}>
+                    <div>
+                        <img src={image_url} alt="" />
+                    </div>
+                    <div className="contentBox">
+                        <h3>{brand_name}</h3>
+                        <h4>{product_name}</h4>
+                        <p>{quantity}</p>
+                        <p>MRP: {MRP}</p>
+                        <p>Rs: {price}</p>
+                    </div>
+
+                    <div className="discountText">
+                        <p>{offer_text}% OFF</p>
+                    </div>
+                    <div className="buttonBox">
+                        <button onClick={() => removeFromCart(product_name)} >Remove from Cart</button>
                     </div>
                 </div>
 
